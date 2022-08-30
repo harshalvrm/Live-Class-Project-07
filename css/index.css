@@ -6,40 +6,40 @@
     /* font-family: 'Fredoka One'; */
 }
 
+
+body{
+    margin-left: 30px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 80px;
-    margin-top: 20px;
-    
+    margin: 30px 0;
+    height: 50px;
+}
 
+/* Middle text of Entire Navbar */
+.nav-items { 
+    margin-left: 180px;
+    font-size: 1.2rem;
+    font-weight: 700;    
     
 }
 
-@media 800px { 
-    flex-direction :  column;
-    
-}
-
+/* Individual items of middle text of nav (home, product, proce and about) */
 .nav-item
 {
     display: inline-block;
-    margin-right: 20px;
-    font-size: 1.2rem;
+    margin:0 30px 0 20px;
+    padding: 0 10px;
+
+
 }
 
+/* Home button in orange  */
 .active-item {
     font-weight: 500;
     color: #FE5E35 ;
   }
 
-nav > img
-{
-
-}
-
-
-body{
-    margin-left: 30px;
-}
