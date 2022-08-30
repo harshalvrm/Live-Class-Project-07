@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    
+    /* font-family: 'Fredoka One'; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    margin-top: 20px;
+    
+
+    
+}
+
+@media 800px { 
+    flex-direction :  column;
+    
+}
+
+.nav-item
+{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.active-item {
+    font-weight: 500;
+    color: #FE5E35 ;
+  }
+
+nav > img
+{
+
+}
+
+
+body{
+    margin-left: 30px;
+}
