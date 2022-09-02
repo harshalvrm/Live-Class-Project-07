@@ -120,12 +120,12 @@ nav{
 }
 
 .headphone-div {
-    position: relative;
+    position: relative;  
 }
 
 /* Headphone image resize */
 .headphn{
-    width: 60%; 
+    width: 55%; 
     /* margin-left: 100px; */
 }
   
@@ -166,21 +166,104 @@ nav{
 
 /* Dots section */
 .dots {
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin: 0px 250px -30px 0;
     display: flex;
     flex-direction: row;
 }
 
+.dot {
+    position: inherit;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
 .yellow-dot{
-    background-color: #fff ;
+    background-color: #DDD101 ;
+}
+
+.tomato-dot{
+    background-color: #FE5E35 ;
+}
+
+.black-dot{
+    background-color: #000 ;
+}
+
+/* Add to cart button position */
+.cart{
+margin-right: 260px;
+margin-top: 50px;
 }
 
 
+@media screen and (max-width: 1140px) {
+    /*************** Nav section *******************/
+  
+ .nav-items {
+    display: none;
+}
+  
+.menu {
+    display: flex;
+    margin-right: 40px;
+}
+
+}
 
 
-/* Add to cart button position */
-/* .cart{
-    margin-left: -230px;
-    margin-top: -100px;
-} */
+  @media screen and (max-width: 980px) {
+    /*************** Nav section *******************/
+  
+    nav {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 0 20px 20px;
+      box-sizing: border-box;
+    }
+  
+    img[alt="actions"] {
+      display: none;
+    }
+  
+    .menu {
+      display: flex;
+      margin-right: 20px;
+    }
+  
+    /*************** Intro section *******************/
+  
+    .intro-section {
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 40px 20px;
+    }
+  
+    .left-section {
+      padding: 0;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .right-section {
+      width: 80%;
+      margin: 0 0 40px 0;
+    }
+  
+    .headphone-div {
+      width: auto;
+  }
+  
+  .discount {
+      left: 0px;
+  }
+  
+  .discount-content {
+      left: 22px;
+  }
+  
+  }
+  
