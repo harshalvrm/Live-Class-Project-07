@@ -141,9 +141,8 @@ nav{
 }
   
 .discount-content {
-    position: relative;
+    position: absolute;
     top: 64%;
-    left: -273px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -158,7 +157,7 @@ nav{
 }
 
 .discount-content h1 {
-    position: relative;
+    /* position: relative; */
     font-family: 'Fredoka One';
     font-size: 2rem;
 }
@@ -166,9 +165,9 @@ nav{
 
 /* Dots section */
 .dots {
-    margin: 0px 250px -30px 0;
+    margin: 20px 250px 0px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
 }
 
 .dot {
@@ -198,6 +197,8 @@ margin-top: 50px;
 }
 
 
+/* Responsiveness Added */
+
 @media screen and (max-width: 1140px) {
     /*************** Nav section *******************/
   
@@ -213,57 +214,71 @@ margin-top: 50px;
 }
 
 
-  @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     /*************** Nav section *******************/
+nav {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 20px 20px;
+    box-sizing: border-box;
+}
   
-    nav {
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: space-between;
-      align-items: center;
-      padding: 40px 0 20px 20px;
-      box-sizing: border-box;
-    }
+img[alt="actions"] {
+    display: none;
+    
+}
   
-    img[alt="actions"] {
-      display: none;
-    }
+.menu {
+    display: flex;
+    margin-right: 20px;
+}
+
+.headphone-div{
+    display: flex;
+    justify-content: center;
+}
+
+.discount{
+    position: absolute;
+margin-left: 145px ;
+}
+
+.discount-content{
+    position: absolute;
+    margin-left: 140px;
+}
   
-    .menu {
-      display: flex;
-      margin-right: 20px;
-    }
+/*************** Intro section *******************/
+
+.intro-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 40px 20px;
+}
   
-    /*************** Intro section *******************/
+.left-section {
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
   
-    .intro-section {
-      flex-direction: column-reverse;
-      align-items: center;
-      margin: 40px 20px;
-    }
+.right-section {
+    width: 80%;
+    margin: 0 0 40px 0;
+}
   
-    .left-section {
-      padding: 0;
-      align-items: center;
-      text-align: center;
-    }
+.headphone-div {
+    width: auto;
+}
   
-    .right-section {
-      width: 80%;
-      margin: 0 0 40px 0;
-    }
+.discount {
+    left: 0px;
+}
   
-    .headphone-div {
-      width: auto;
-  }
+.discount-content {
+    left: 22px;
+}
   
-  .discount {
-      left: 0px;
-  }
-  
-  .discount-content {
-      left: 22px;
-  }
-  
-  }
-  
+}
