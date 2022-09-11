@@ -3,7 +3,7 @@
 ---
 
 ## Description
-This is a landing page designed for an E-commerce firm in pure HTML and CSS. The overall design includes a lot of elements. Apart from the images and navbar placements, it has a bunch of `SVG` images that are floating on the web pages. The main problems with the floating images arise while making the design responsive. The overall time it took to complete this project was around `7-8 hours`. The majority of the time was consumed in finding the right CSS elements for the design but flexbox has made the task somehow easy. There are multiple elements in this project which require separate attention, such as icon SVG images in the navbar, headphone images, and discount SVG on top of it. The mid-section includes the description of the product and features. This project has taught me the value of `Flexbox`, `media queries, and `box design` on a whole new level.
+This is a landing page designed for an E-commerce firm in pure HTML and CSS. The overall design includes a lot of elements. Apart from the images and navbar placements, it has a bunch of `SVG` images that are floating on the web pages. The main problems with the floating images arise while making the design responsive. The overall time it took to complete this project was around `7-8 hours`. The majority of the time was consumed in finding the right CSS elements for the design but flexbox has made the task somehow easy. There are multiple elements in this project which require separate attention, such as icon SVG images in the navbar, headphone images, and discount SVG on top of it. The mid-section includes the description of the product and features. This project has taught me the value of `Flexbox`, `media queries`, and `box design` on a whole new level.
 
 ---
 
