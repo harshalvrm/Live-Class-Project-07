@@ -15,7 +15,7 @@ This is a landing page designed for an E-commerce firm in pure HTML and CSS. The
 
 
 Here's a Screen-Shot of my 7th project along with the code snippets.
-
+<div style="text-align: center;">
 <br>
 
 ![Responsive](./Screenshots/819px_ss.png)
@@ -27,7 +27,7 @@ Here's a Screen-Shot of my 7th project along with the code snippets.
 
 ![Css](./Screenshots/code2.png)
 
-
+</div>
 <!-- PROJECT LOGO -->
 <br/>
 <hr>
